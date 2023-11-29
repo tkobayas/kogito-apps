@@ -29,10 +29,6 @@ recipeList:
     key: version.org.optaplanner,
     newValue: 9.44.0.Final
   }
-- org.openrewrite.maven.ChangePropertyValue: {
-    newValue: 1.5.5.Final,
-    key: version.org.mapstruct
-  }
 - org.kie.ManagedDependencies
 - io.quarkus.updates.core.quarkus30.UpgradeQuarkiverse
 - org.openrewrite.java.migrate.jakarta.JavaxActivationMigrationToJakartaActivation
