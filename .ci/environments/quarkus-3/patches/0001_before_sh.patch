@@ -4427,14 +4427,8 @@ index 62f2d796b..d6a4fc4df 100644
 -@NativeImageTest
 +@QuarkusIntegrationTest
  public class NativeStaticContentTestIT extends StaticContentIT {
- 
+
      // Execute the same tests but in native mode.
-diff --git a/migration.patch b/migration.patch
-new file mode 100644
-index 000000000..2dac4bbfb
---- /dev/null
-+++ b/migration.patch
-@@ -0,0 +1,94 @@
 +diff --git a/data-index/data-index-storage/data-index-storage-oracle/src/main/java/org/kie/kogito/index/oracle/storage/OracleStorageService.java b/data-index/data-index-storage/data-index-storage-oracle/src/main/java/org/kie/kogito/index/oracle/storage/OracleStorageService.java
 +index 8c1d6dcfa..efadb2929 100644
 +--- a/data-index/data-index-storage/data-index-storage-oracle/src/main/java/org/kie/kogito/index/oracle/storage/OracleStorageService.java
